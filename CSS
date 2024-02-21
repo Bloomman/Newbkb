@@ -1,0 +1,52 @@
+/* style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Aesthetic font */
+    background-color: #f0f2f5; /* Light grey background for a soft look */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #ffffff; /* White background for the form area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners for modern appearance */
+    text-align: center; /* Center align the content */
+}
+
+input[type="file"] {
+    margin: 20px 0; /* Space around the file input */
+}
+
+button {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px; /* Padding for button size */
+    margin: 10px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size for readability */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#progressBarContainer {
+    width: 100%;
+    background-color: #eee; /* Light grey background for progress bar container */
+    margin-top: 20px; /* Space above the progress bar container */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensures the inner bar stays within the container's rounded corners */
+}
+
+#progressBar {
+    height: 20px; /* Fixed height for progress bar */
+    background-color: #4CAF50; /* Green color for progress */
+    width: 0%; /* Initial width */
+    transition: width 0.5s ease-in-out; /* Smooth transition for width changes */
+}
