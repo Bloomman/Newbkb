@@ -3,57 +3,61 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #f4f7f6; /* Light background color matching the logo's backdrop */
 }
 
 .container {
     max-width: 600px;
     margin: 20px auto;
     padding: 40px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Keeping the container white for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     border-radius: 8px;
     text-align: center;
 }
 
 #logo {
-    max-width: 60%;
+    max-width: 50%; /* Adjust logo size as needed */
     height: auto;
     display: block;
-    margin: 20px auto 40px;
+    margin: 30px auto; /* Increase margin for more space around the logo */
 }
 
 input[type="file"] {
     margin: 20px 0;
+    border: 1px solid #cfe0e8; /* Light border color */
+    padding: 10px;
+    background-color: #eff3f4; /* Light background color for the input field */
+    border-radius: 5px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #30e3ca; /* Selecting a green shade from the logo */
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    margin: 10px;
+    padding: 12px 25px;
+    margin: 15px; /* Slightly more margin for better spacing */
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px; /* Slightly larger font for better legibility */
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2ab7a9; /* A darker shade of the button color for hover state */
 }
 
 #progressBarContainer {
     width: 100%;
-    background-color: #eee;
-    margin-top: 20px;
+    background-color: #cfe0e8; /* Light border color for the container */
+    margin-top: 25px; /* More top margin for spacing */
     border-radius: 5px;
     overflow: hidden;
 }
 
 #progressBar {
-    height: 20px;
-    background-color: #4CAF50;
+    height: 25px; /* Slightly taller progress bar for better visibility */
+    background-color: #5bc0be; /* A blue shade from the logo for the progress bar */
     width: 0%;
     transition: width 0.5s ease-in-out;
 }
