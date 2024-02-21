@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Upload Portal</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Newbloom AI Logo -->
+        <img src="newbloom-ai-logo.png" alt="Newbloom AI Logo" id="logo">
+        
         <!-- Image Upload Input -->
-        <input type="file" id="imageUpload" multiple style="display: none;">
+        <input type="file" id="imageUpload" multiple>
         
-        <!-- Trigger for Image Upload -->
+        <!-- Upload and Process Buttons -->
         <button id="uploadBtn">Upload Images</button>
-        
-        <!-- Processing Trigger -->
         <button id="processBtn">I'm Done Uploading</button>
         
         <!-- Progress Bar Container -->
-        <div id="progressBarContainer" style="width: 100%; background-color: #eee; margin-top: 20px;">
-            <div id="progressBar" style="height: 24px; background-color: #4CAF50; width: 0%;"></div>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
         </div>
     </div>
-    
-    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
