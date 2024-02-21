@@ -2,58 +2,58 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Aesthetic font */
-    background-color: #f0f2f5; /* Light grey background for a soft look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
 }
 
 .container {
     max-width: 600px;
     margin: 20px auto;
     padding: 40px;
-    background-color: #ffffff; /* White background for the form area */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 8px; /* Rounded corners for modern appearance */
-    text-align: center; /* Center align the content */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
 }
 
 #logo {
-    max-width: 60%; /* Adjust based on desired size; ensures responsiveness */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Allows margin auto to center horizontally */
-    margin: 20px auto 40px; /* Adds space above and below the logo */
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 20px auto 40px;
 }
 
 input[type="file"] {
-    margin: 20px 0; /* Space around the file input */
+    margin: 20px 0;
 }
 
 button {
-    background-color: #007bff; /* Bootstrap primary blue */
-    color: #ffffff; /* White text */
+    background-color: #007bff;
+    color: #ffffff;
     border: none;
-    padding: 10px 20px; /* Padding for button size */
-    margin: 10px; /* Space between buttons */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Larger font size for readability */
-    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 #progressBarContainer {
     width: 100%;
-    background-color: #eee; /* Light grey background for progress bar container */
-    margin-top: 20px; /* Space above the progress bar container */
-    border-radius: 5px; /* Rounded corners */
-    overflow: hidden; /* Ensures the inner bar stays within the container's rounded corners */
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 #progressBar {
-    height: 20px; /* Fixed height for progress bar */
-    background-color: #4CAF50; /* Green color for progress */
-    width: 0%; /* Initial width */
-    transition: width 0.5s ease-in-out; /* Smooth transition for width changes */
+    height: 20px;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
 }
