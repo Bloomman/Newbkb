@@ -16,6 +16,13 @@ body, html {
     text-align: center; /* Center align the content */
 }
 
+#logo {
+    max-width: 60%; /* Adjust based on desired size; ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Allows margin auto to center horizontally */
+    margin: 20px auto 40px; /* Adds space above and below the logo */
+}
+
 input[type="file"] {
     margin: 20px 0; /* Space around the file input */
 }
