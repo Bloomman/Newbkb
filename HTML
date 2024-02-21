@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Portal</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file for styling -->
+</head>
+<body>
+    <div class="container">
+        <!-- Image Upload Input -->
+        <input type="file" id="imageUpload" multiple style="display: none;">
+        
+        <!-- Trigger for Image Upload -->
+        <button id="uploadBtn">Upload Images</button>
+        
+        <!-- Processing Trigger -->
+        <button id="processBtn">I'm Done Uploading</button>
+        
+        <!-- Progress Bar Container -->
+        <div id="progressBarContainer" style="width: 100%; background-color: #eee; margin-top: 20px;">
+            <div id="progressBar" style="height: 24px; background-color: #4CAF50; width: 0%;"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
